@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* title section */
+#title{
+    text-align: left;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+
+}
+h1,h2,h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight:900;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/* navbar section */
+.navbar{
+    padding:0 0 2.5rem;          /* top left+right bottom */
+
+}
+
+.navbar-brand{
+    font-size:2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+}
+
+
+.nav-item{
+    padding:0px 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+    color:#A59B9B;
+}
+
+.big-heading{
+    font-family: 'Montserrat-black', sans-serif; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight:900;
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+
+.title-image{
+    width:22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:20%;
+}
+
+
+/* feautures section */
+
+
+#features{
+    padding:7% 10%;
+    position:relative;
+    z-index: 1;
+}
+
+.features-name{
+    font-size:1.5rem;
+}
+
+.features-box{
+    text-align:center;
+    padding:5%;
+}
+
+
+.features-details{
+    color:#8f8f8f;
+    font-weight: 500;
+
+}
+
+.features-image:hover{
+    color:#ff4c68;
+}
+
+.features-image{
+    color:#ef8172;   
+    margin:1rem;
+}
+
+/* testimonials section */
+
+#press, #testimonials{
+    background-color: #ef8172;
+}
+.carousel-item{
+    padding: 10% 15%;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+/* press section */
+#press{
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+/* pricing section */
+
+#pricing{
+    padding:100px;
+}
+.pricing-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* call to action section */
+#cta{
+    font-family: 'Montserrat-black', sans-serif; 
+    font-weight:900;
+    padding: 7% 15%;
+}
+.cta-text{
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding:7% 15%;
+}
+
+.social-button{
+    margin:20px 10px;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width:60%;
+        transform: rotate(0deg);
+    }
+}
